@@ -62,7 +62,7 @@ public class AuthController : ControllerBase
       Password = userForRegistration.Password
     };
 
-    if (_authHelper.setPassword(userForPassword))
+    if (!_authHelper.setPassword(userForPassword))
     {
       throw new Exception("Failed to add user");
     }
