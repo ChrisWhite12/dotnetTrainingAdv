@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/chrisw/projects/blackbook/training/csharpbasics/DotNetAPI/DotNetAPI.csproj": {}
+  },
+  "projects": {
+    "/home/chrisw/projects/blackbook/training/csharpbasics/DotNetAPI/DotNetAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/chrisw/projects/blackbook/training/csharpbasics/DotNetAPI/DotNetAPI.csproj",
+        "projectName": "DotNetAPI",
+        "projectPath": "/home/chrisw/projects/blackbook/training/csharpbasics/DotNetAPI/DotNetAPI.csproj",
+        "packagesPath": "/home/chrisw/.nuget/packages/",
+        "outputPath": "/home/chrisw/projects/blackbook/training/csharpbasics/DotNetAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/chrisw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.122/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
